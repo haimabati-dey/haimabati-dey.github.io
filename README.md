@@ -20,3 +20,12 @@ Edit text directly in `index.html`. Layout, colors, responsive behavior and typo
 - Selected research summaries are adapted from abstracts/project descriptions in the combined research PDF. Where full bibliographic information was not supplied, entries are presented as research documents/projects rather than claiming journal publication.
 - The uploaded CV and research report PDFs are **not** included in this ZIP, so they will not be publicly exposed by accident.
 - Please review contact, LinkedIn, and GitHub links before publishing. The LinkedIn URL is based on the handle provided in the CV and may need confirmation.
+
+
+## Version 2: project illustrations and repository links
+
+Original conceptual PNG illustrations are stored in `assets/images/`. The selected-project summaries and research abstract cards reference these local files, so they will display on GitHub Pages without external image hosting. To change an image, replace the corresponding PNG while keeping its filename, or update the `src` in `index.html`.
+
+Each abstract currently links to the GitHub profile because individual project repository URLs were not supplied. When you create repositories, edit each `.paper-link` URL in `index.html` to the exact repository URL. Do not leave a placeholder URL.
+
+The illustrations are conceptual artwork, not experimental or simulation results. Replace them with your own verified plots or device images whenever available.
